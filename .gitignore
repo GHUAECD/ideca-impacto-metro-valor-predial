@@ -1,0 +1,66 @@
+# Fuentes locales: no distribuir datos institucionales automaticamente.
+/2 - Fuentes/*.zip
+/2 - Fuentes/*.gdb
+/2 - Fuentes/*.gdb/**
+/2 - Fuentes/*.gpkg
+/2 - Fuentes/**/*.zip
+/2 - Fuentes/**/*.gdb/
+/2 - Fuentes/**/*.gpkg
+/2 - Fuentes/**/*.shp
+/2 - Fuentes/**/*.shx
+/2 - Fuentes/**/*.dbf
+/2 - Fuentes/**/*.prj
+/2 - Fuentes/**/*.cpg
+/2 - Fuentes/**/*.CPG
+/2 - Fuentes/**/*.sbn
+/2 - Fuentes/**/*.sbx
+/2 - Fuentes/**/*.shp.xml
+/2 - Fuentes/**/*.csv
+/2 - Fuentes/**/*.xlsx
+
+# Resultados tabulares y mapas interactivos con atributos por lote.
+/4 - Salidas/*.csv
+/4 - Salidas/**/*.csv
+/4 - Salidas/**/*.xlsx
+/4 - Salidas/**/*.html
+# Exportaciones de los notebooks que pueden caer en el directorio de trabajo.
+dataset_final_predios_completo.csv
+dataset_final_predios_completo.xlsx
+dataset_ingenieria_caracteristicas.csv
+dataset_modelo_lote_umbral100.csv
+lookup_chip_isocrona.csv
+lookup_chip_ph.csv
+gwr_efecto_por_banda.csv
+
+# Entorno Python, editores y sistema operativo.
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
+
+# Los notebooks, la memoria, los README y el JPG GWR permanecen visibles.
+# Revisar los outputs incrustados de los notebooks antes de publicarlos.
+
+# Otros archivos auxiliares de shapefiles y geodatabases.
+/2 - Fuentes/**/*.qix
+/2 - Fuentes/**/*.fix
+/2 - Fuentes/**/*.atx
+/2 - Fuentes/**/*.ain
+/2 - Fuentes/**/*.aih
+/2 - Fuentes/**/*.ixs
+/2 - Fuentes/**/*.mxs
+/2 - Fuentes/**/*.shp.*
+# Tablas y mapas generados en cualquier directorio de trabajo del proyecto.
+*.csv
+*.xlsx
+*.html
+# Gitignore no filtra por tamano: revisar formatos nuevos antes de publicar.
+# Los datos excluidos permanecen locales; no incorporar mediante Git LFS.

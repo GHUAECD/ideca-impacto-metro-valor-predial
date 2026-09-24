@@ -1,0 +1,25 @@
+# Paquetes importados por los notebooks; sin versiones fijadas en el proyecto.
+numpy
+pandas
+geopandas
+pyogrio
+fiona
+shapely
+scipy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+libpysal
+esda
+spreg
+mgwr
+xgboost
+shap
+folium
+branca
+plotly
+# Motor explicitamente solicitado por to_excel en Consignacion.
+openpyxl
+# google.colab pertenece al entorno Colab; no se instala para uso local.
+# Biblioteca estandar: gc, re, unicodedata, warnings, time, subprocess, glob, os.
