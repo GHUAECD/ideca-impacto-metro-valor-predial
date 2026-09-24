@@ -64,3 +64,6 @@ Thumbs.db
 *.html
 # Gitignore no filtra por tamano: revisar formatos nuevos antes de publicar.
 # Los datos excluidos permanecen locales; no incorporar mediante Git LFS.
+
+# La version publicable de la memoria es PDF; conservar DOCX solo localmente.
+/1 - Documentación/*.docx

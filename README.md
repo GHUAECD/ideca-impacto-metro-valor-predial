@@ -8,7 +8,7 @@ El estudio integra características catastrales, construcción, propiedad horizo
 
 Es un análisis transversal del avalúo, no una comparación antes/después ni una identificación causal del efecto de la obra. El avalúo catastral y el precio de oferta son medidas distintas. El término «impacto» del título debe leerse dentro de ese alcance estadístico.
 
-La fuente principal de contexto y metodología es la [memoria técnica](1%20-%20Documentaci%C3%B3n/Memoria_tecnica_modelo_valor.docx), contrastada con el código y las salidas existentes. Esta documentación se elaboró mediante inspección de solo lectura, sin ejecutar notebooks ni recalcular modelos.
+La fuente principal de contexto y metodología es la memoria técnica, disponible para publicación en [formato PDF](1%20-%20Documentaci%C3%B3n/Memoria_tecnica_modelo_valor.pdf). El análisis previo se realizó sobre el DOCX original, contrastado con el código y las salidas existentes, sin ejecutar notebooks ni recalcular modelos. El DOCX se conserva únicamente como copia local excluida de Git.
 
 **Estado de reproducción y publicación:** faltan insumos auxiliares y hay discrepancias entre versiones. Las fuentes y CSV quedan excluidos de Git, pero los notebooks originales conservan salidas con identificadores prediales y rutas de trabajo. Deben revisarse antes de una publicación pública; `.gitignore` no oculta sus contenidos incrustados. No se modificaron esos originales.
 
@@ -57,7 +57,7 @@ ideca-impacto-metro-valor-predial/
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── 1 - Documentación/
-│   └── Memoria_tecnica_modelo_valor.docx
+│   └── Memoria_tecnica_modelo_valor.pdf
 ├── 2 - Fuentes/
 │   ├── README.md
 │   ├── BaseDatosGD.gdb-20260810T154550Z-1-001.zip
